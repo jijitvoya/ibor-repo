@@ -1,3 +1,8 @@
+{{
+    config(
+        materialized='view',
+        tags=['staging', 'fx']
+    )
 }}
 
 -- Clean and type FX rates from raw source
